@@ -1,0 +1,8 @@
+.action-panel ul{
+	padding:0;
+	margin:0;
+}
+.action-panel ul li{
+	list-style:none;
+	display:inline; 
+}
