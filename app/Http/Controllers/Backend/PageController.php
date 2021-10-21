@@ -16,8 +16,4 @@ class PageController extends Controller
     {
         return view('backend.dashboard');
     }
-    public function blank()
-    {
-        return view('backend.blank');
-    }
 }

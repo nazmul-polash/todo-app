@@ -19,7 +19,7 @@ Route::get('/', function () {
 
 Route::group(['prefix' => 'admin'], function(){
 	Route::get('/dashboard', 'App\Http\Controllers\Backend\PageController@dashboard')->middleware(['auth'])->name('dashboard');
-	Route::get('/blank', 'App\Http\Controllers\Backend\PageController@blank');
+
 
 	// task list
 	Route::group(['prefix' => 'mytask'], function(){
